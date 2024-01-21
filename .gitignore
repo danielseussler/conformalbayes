@@ -1,0 +1,12 @@
+# Data files / Stan output
+*.csv
+*.txt
+
+# Stan files
+*.o
+*.hpp
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class

@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "conformalbayes"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "conformalbayes", from="src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26.3"
+numba = "^0.58.1"
+cmdstanpy = {extras = ["all"], version = "^1.2.0"}
+arviz = "^0.17.0"
+seaborn = "^0.13.1"
+ipykernel = "^6.28.0"
+jupyter = "^1.0.0"
+loguru = "^0.7.2"
+pandas = {extras = ["excel"], version = "^2.2.0"}
+scikit-learn = "^1.4.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

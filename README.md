@@ -1,14 +1,12 @@
 # conformalbayes
 
-Implementing conformal bayesian computation in Stan. Follows this [repo](https://github.com/edfong/conformal_bayes/) and the corresponding paper. 
+Conformal Bayesian Computation in Stan with post-processing in Numpy and Numba. Broadly follows this [repo](https://github.com/edfong/conformal_bayes/) and the corresponding paper. 
 
-Tbd. 
+- [ ] cf. Numba speed-up with JAX.
+- [ ] cf. width of conformal intervals with the jackknife (+) approach in Barber et al.
+- [ ] refactor the package part of this repo
 
-- comparison with the predicitve intervals by importance sampling the leave-one-out residuals (jacknife+).
-- use numba for speed-ups
-
-
-**References**
+## References
 
 Fong, Edwin, and Chris C Holmes. 2021. ‘Conformal Bayesian Computation’. In Advances in Neural Information Processing Systems, 34:18268–79.
 
